@@ -3744,9 +3744,11 @@ li:nth-child(4) .menu-list__item span {
   font-size: 1.2rem;
   margin-top: .2rem;
   margin-bottom: .5rem;
+  color: blue;
 }
 .popover-map-caption {
   font-weight: 400;
+  color: blue;
 }
 
 /* -----------------------------------------------------------------
@@ -3755,11 +3757,13 @@ li:nth-child(4) .menu-list__item span {
 .filters-title {
   display: inline-flex;
   padding-right: 3.2rem;
+  color: blue;
 }
 @media only screen and (max-width: 992px) {
   .filters-title {
     font-size: .87rem;
     padding-right: 2.5rem;
+
   }
 }
 

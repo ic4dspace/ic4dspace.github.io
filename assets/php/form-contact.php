@@ -35,8 +35,8 @@ define('URL', $url);
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=utf-8";
 
-$emailTo = "example@example.com"; //<- Your Email
-$subject = "New Message Received"; //<- Your Subject Email
+$emailTo = "ic4dspace@gmail.com"; //<- Your Email
+$subject = "New Message Received From #IC4DSpace"; //<- Your Subject Email
 
 // prepare email body text
 $body = "<html><body>";

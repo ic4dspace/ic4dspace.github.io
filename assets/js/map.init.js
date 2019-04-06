@@ -11,7 +11,7 @@ function init() {
 		disableDefaultUI: true,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+        center: new google.maps.LatLng(28.4179144, -81.579002), // New York
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -32,17 +32,18 @@ function init() {
     }
 
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(40.6700, -73.9400),
+        position: new google.maps.LatLng(28.4179144, -81.579002),
         map: map,
         optimized: false,
         icon: image
     });	
+
 				
 	// Construct a new InfoWindow.
     var infoWindow = new google.maps.InfoWindow({
         content: 
-		'<h1 class="popover-map-title">ARTEM.</h1>'+
-		'<div class="popover-map-caption">756 Livingston Street, Brooklyn, NY 11201</div>'
+		'<h1 class="popover-map-title">#IC4D</h1>'+
+		'<div class="popover-map-caption">Tomorrowland, Orlando, FL 32830</div>'
     });
 				
 	// Opens the InfoWindow when marker is clicked.
