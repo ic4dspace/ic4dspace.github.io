@@ -3974,12 +3974,23 @@ li:nth-child(4) .menu-list__item span {
   height: 330px;
   overflow: hidden;
 }
+ img#optionalstuff {
+    display: none;
+  }
+
+  @media only screen and (max-width: 580px) {
+  img#optionalstuff {
+    display: unset;
+  }
+}
+
 .item-news__image {
   object-fit: cover;
   width: 100%;
   height: 100%;
   transform: scale(1);
   transition: transform 0.8s cubic-bezier(0.2, 1, 0.8, 1);
+
 }
 .item-news:hover .item-news__image {
   transform: scale(1.05);
