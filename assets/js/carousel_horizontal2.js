@@ -8,14 +8,14 @@ $('body').imagesLoaded().always( function( instance ) {
             loop: true,
             effect: 'fade',
 	        parallax: true,
-            speed: 1200,
+            speed: 19000,
             simulateTouch: false
         });
 			
         var halfSliderImage = new Swiper('.slider__image', {
             slidesPerView: 1,
             loop: true,
-			speed: 1200,
+			speed: 19000,
             simulateTouch: false,
 	        roundLengths: true,
 	        parallax: true,
