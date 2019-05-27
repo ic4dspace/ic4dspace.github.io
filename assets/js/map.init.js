@@ -43,7 +43,7 @@ function init() {
     var infoWindow = new google.maps.InfoWindow({
         content: 
 		'<h1 class="popover-map-title">#IC4D</h1>'+
-		'<div class="popover-map-caption">Tomorrowland, Orlando, FL 32830</div>'
+		'<div class="popover-map-caption">Orlando, FL</div>'
     });
 				
 	// Opens the InfoWindow when marker is clicked.

@@ -8,7 +8,7 @@ $('body').imagesLoaded().always( function( instance ) {
             loop: true,
             effect: 'fade',
 	        parallax: true,
-            speed: 19000,
+            speed: 5000,
             simulateTouch: false
         });
 			
